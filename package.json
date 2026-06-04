@@ -8,8 +8,9 @@
 
     "03": "nodemon 03_chat.js",
     
-    "04": "nodemon 04_deploy.js"
+    "04": "nodemon 04_deploy.js",
 
+    "start": "node 04_deploy.js"
 
   },
 
