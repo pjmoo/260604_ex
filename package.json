@@ -1,16 +1,28 @@
 {
-  "name": "260604_ex",
-  "version": "1.0.0",
-  "description": "",
-  "main": "01_express.js",
+
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+
+    "01": "nodemon 01_express.js",
+
+    "02": "nodemon 02_sdk.js"
+
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
+
   "dependencies": {
+
+    "@google/genai": "^2.8.0",
+
+    "dotenv": "^17.4.2",
+
     "express": "^5.2.1"
+
+  },
+
+  "devDependencies": {
+
+    "nodemon": "^3.1.14"
+
   }
+
 }
+
